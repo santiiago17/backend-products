@@ -1,0 +1,26 @@
+2025-11-24T21:27:26.099Z [INFO] ----------------------invoke generate_upgrade_plan----------------------
+2025-11-24T21:27:26.099Z [INFO] [Tool.invoke]({name: generate_upgrade_plan, input: {
+  "projectPath": "c:/Users/sh141/Documents/D/SENA/ADSO_282/6 Trimestre/German Angarita/Docker/adso-/adso-",
+  "targetJavaVersion": "21",
+  "useCurrentBranch": false,
+  "guidelines": ""
+}}).
+2025-11-24T21:27:26.100Z [INFO] [Plan.tryStartTask]({tool:generate_upgrade_plan, nextTask:{type:undefined, tool:undefined}}
+2025-11-24T21:27:26.101Z [INFO] [Plan.tryStartTask]: no next task, create new one.
+2025-11-24T21:27:26.101Z [INFO] [Plan.createTaskAtStart]({tool: generate_upgrade_plan, input: {
+  "projectPath": "c:/Users/sh141/Documents/D/SENA/ADSO_282/6 Trimestre/German Angarita/Docker/adso-/adso-",
+  "targetJavaVersion": "21",
+  "useCurrentBranch": false,
+  "guidelines": "",
+  "sessionId": "20251124212726"
+}}).
+2025-11-24T21:27:26.102Z [INFO] [Plan.tryStartTask]: starting task generatePlan
+2025-11-24T21:27:26.102Z [INFO] [Task.start](): Starting task generatePlan
+2025-11-24T21:27:26.103Z [INFO] [Task.start](1): Started task generatePlan
+2025-11-24T21:27:26.107Z [INFO] [Tool.invoke] validate GitHub Copilot license.
+2025-11-24T21:32:18.165Z [INFO] Copilot user info:undefined
+2025-11-24T21:32:18.167Z [WARN] "GitHub Copilot app modernization - upgrade for Java" and its tools are only available for GitHub Copilot "Pro", "Pro+", "Business" and "Enterprise" plans.
+2025-11-24T21:32:18.168Z [ERROR] [Tool.invoke] error occurs when invoking tool generate_upgrade_plan: UnsupportedCopilotPlanError: "GitHub Copilot app modernization - upgrade for Java" and its tools are only available for GitHub Copilot "Pro", "Pro+", "Business" and "Enterprise" plans.. Please upgrade your GitHub Copilot plan to use this feature or upgrading this project using other tools you prefer..
+2025-11-24T21:32:18.171Z [INFO] [Task.complete](1): Completing task generatePlan
+2025-11-24T21:32:18.173Z [INFO] ----------------------invoked generate_upgrade_plan----------------------
+2025-11-24T21:32:18.174Z [INFO] [Task.complete](1): Completed task generatePlan
